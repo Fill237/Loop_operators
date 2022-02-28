@@ -10,7 +10,7 @@ public class task_7 {
         Scanner src = new Scanner(System.in);
         int size_mas = src.nextInt();
         int[] mas = new int[size_mas];                      //zadaem razmer massiva
-        System.out.println("razmer massiva:" + mas.length);
+        System.out.println("Размер массива:" + mas.length);
         int i;
         for (i = 0; i < size_mas; i++) {             //zapolnenie elementami
             mas[i] = src.nextInt();
